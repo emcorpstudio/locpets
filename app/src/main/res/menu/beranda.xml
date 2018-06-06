@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mypets"
+        android:title="My Pets"
+        android:icon="@drawable/ic_pets"
+        android:iconTint="@android:color/white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_clinic"
+        android:iconTint="@android:color/white"
+        android:title="Clinic and Pet Shop"
+        android:icon="@drawable/ic_hospital"
+        app:showAsAction="always" />
+</menu>
